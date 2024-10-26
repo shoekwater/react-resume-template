@@ -69,18 +69,15 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Sam Hoekwater`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm currently a Fort Worth based <strong className="text-stone-100">Software Engineer</strong>, currently working
+        at <strong className="text-stone-100">Lockheed Martin</strong> helping support Test-Station Avionic Software.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, I enjoy playing volleyball, snow skiing, running, and working on my personal video game project.
       </p>
     </>
   ),
@@ -104,16 +101,22 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I am a dedicated young engineer with a passion for developing innovative 
+	  solutions and bringing creative projects to life. In my current role, I hold Secret
+  	Security Clearance and work on avionics software models, creating and maintaining
+	systems that simulate fighter jet avionics to enhance pilot training and system testing.
+	Additionally, I’m working on a personal video game project—a western-themed platform
+	shooter—that combines my technical skills with my love for design and gameplay mechanics.
+	I’m committed to continuous learning and enjoy challenging myself with complex projects. 
+	Whether in team settings or solo projects, I approach every task with a strong work ethic
+	and enthusiasm for problem-solving.`,
+
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Fort Worth, TX', Icon: MapIcon},
+    {label: 'Age', text: '23', Icon: CalendarIcon},
+    {label: 'Interests', text: 'Game Development, Fitness, Nature', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Michigan, Ann Arbor', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Lockheed Martin Co.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -122,70 +125,44 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Technical Skills',
+    skills: [
+      {
+        name: 'C++',
+        level: 9,
+      },
+      {
+        name: 'Python',
+        level: 8,
+      },
+      {
+        name: 'Javascript',
+        level: 5,
+      },
+      {
+	name: 'Git',
+	level: 9,
+      },
+      {
+	name: 'Linux',
+	level: 9,
+      },
+      {
+	name: 'SQL',
+	level: 5,
+      },
+    ],
+  },
+  {
+    name: 'Languages Spoken',
     skills: [
       {
         name: 'English',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
         name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
         level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
       },
     ],
   },
@@ -268,39 +245,62 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'Sep. 2019 to Apr. 2023',
+    location: 'School of Engineering',
+    itle: 'Bachelor\'s in  Computer Science',
+    content: <p>Overall GPA: 3.5/4.0
+    <br></br><br></br>
+    Throughout my studies at the University of Michigan, I was able to design, implement, and learn/apply proper coding principles in my software development. The Computer Science program at Michigan emphasized learning how to write code that is not only functional, but also high performance. They taught me how to collaborate with others on coding projects and integrate each person's part into one final product. 
+    <br></br><br></br>
+    The classes that helped me the most in becoming a capable engineer were <b>Data Structures and Algorithms</b>, <b>Computer Organization</b>, and <b>Web Systems</b>. In these classes, I learned how to make systems scalable to handle large amounts of data and traffic.</p>
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Jul 2023 - Present',
+    location: 'Lockheed Martin Co.',
+    title: 'Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+      	<b>-Optimized Avionics Test Station Software:</b> Developed and maintained universal software using C and C++ to
+	streamline avionics simulations for the Integrated Fighter Group Program, reducing cross-program redundancy
+	and improving codebase efficiency.
+      <br></br>
+	<b>-Enhanced Pilot Simulation Interfaces:</b> Designed and implemented GUIs that accurately simulate pilot interactions
+	with avionics subsystems, improving test accuracy and contributing to more realistic test scenarios.
+      <br></br>	
+	<b>-Developed and Integrated Classified Radar Model:</b> Led the full lifecycle development of a classified radar model,
+	collaborating with customers to meet project specifications and deadlines. Successfully integrated model into seamless
+	communication with mission computer softwares.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'May 2022 - Aug 2022',
+    location: 'Dematic Inc.',
+    title: 'Software Engineer Intern',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+      	<b>-Developed Cost-Saving Sortation Simulator:</b> Created a sortation simulator that replicated the company's package
+	sorting processes, enabling engineers to test tools without using live stations, resulting in significant cost
+	savings during development phases.
+	<br></br>
+	<b>-Collaborated With Team:</b> Learned valuable communication skills and how to approach gaining comprehension of a large codebase.
+      </p>
+    ),
+  },
+  {
+    date: 'Jun 2019 - May 2022',
+    location: 'Floor Care Concepts',
+    title: 'Crew Leader',
+    content: (
+      <p>
+	<b>-Leadership and Management: </b>Led a team of 3-5 employees in completing gym floor refinishing projects, ensuring on-time 
+	delivery and high-quality results, while managing workflow and resolving on-site issues.
+	<br></br>
+	<b>-Customer Relationship and Communication:</b> Interfaced with customers, providing timely updates on project progress and
+	ensured customer satisfaction by addressing concern and managing expectations.
       </p>
     ),
   },
@@ -313,19 +313,14 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Mason McDaniel, Senior Software Engineer at Lockheed Martin',
+      text: 'Sam has been a great addition to the team and has a delightful attitude towards his work that brightens each moment. He has excelled in all his work and does everything promptly and thoroughly. He is a very clever engineer and has a strong work ethic. Whenever he has questions on something he immediately asks and is always looking for more work. Sam is an engineer with lots of potential and will excel in whatever he does.',
+      //image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'Andrew Handrop, Software Engineer at Lockheed Martin',
+      text: 'Sam is easy to work with and a fast learner. He is quick to ask questions and works diligently until his work is done.',
+      //image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
   ],
 };
@@ -336,27 +331,17 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Feel free to reach out to me via my email linked below.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'samuelhoekwater@gmail.com',
+      href: 'mailto:samuelhoekwater@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
-    },
-    {
-      type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'Fort Worth TX, USA',
+      href: 'https://www.google.ca/maps/place/Fort+Worth,+TX/@32.7992671,-97.9130364,10z/',
     },
   ],
 };
@@ -365,9 +350,6 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/shoekwater'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/samuelhoekwater/'},
 ];
