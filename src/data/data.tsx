@@ -3,28 +3,28 @@ import {
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
   CalendarIcon,
-  FlagIcon,
+  //FlagIcon,
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
+//import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+//import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+//import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+//import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+//import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+//import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+//import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+//import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -74,16 +74,16 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm currently a Fort Worth based <strong className="text-stone-100">Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Lockheed Martin</strong> helping support Test-Station Avionic Software.
+        at <strong className="text-stone-100">Lockheed Martin</strong> supporting Test-Station Avionic Software.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, I enjoy playing volleyball, snow skiing, running, and working on my personal video game project.
+        In my free time time, I enjoy playing volleyball, snow skiing, running, and doing personal video game development.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -173,71 +173,71 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Instagram Web Application Clone',
+    description: 'A web application where users can create an account, post images with captions, follow other users, and like their posts',
+    url: 'https://github.com/shoekwater',
     image: porfolioImage8,
   },
   {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
+    title: 'Map Reduce Pipeline',
+    description: 'A pipeline that splits a job into mulitple tasks, does a mapping on input data, and then combines the result. This enables concurrent processing for faster computation.',
+    url: 'https://github.com/shoekwater',
+    image: porfolioImage2,
   },
   {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Western Themed Platform Shooter Game',
+    description: 'This project is still in progress. It is a game created with the free Godot Game Engine where you play as a cowboy who has to defend against the alligator men.',
+    url: 'https://github.com/shoekwater',
+    image: porfolioImage3,
+  },
+  {
+    title: 'Text Based Euchre Game',
+    description: 'Play the classic card game, Euchre, in text form with others or against the AI players.',
+    url: 'https://github.com/shoekwater',
+    image: porfolioImage4,
+  },
+  {
+    title: 'Search Engine',
+    description: 'Server to search through a large database of articles for keywords to provide relevant results in a timely manner.',
+    url: 'https://github.com/shoekwater',
+    image: porfolioImage5,
+  },
+//  {
+//    title: 'Twitter Sport Categorization Software',
+//    description: 'Python program to read in sports-related tweet contents and provide a ranking of possible sport categorizations along with their corresponding probabilities.',
+//    url: 'https://reactresume.com',
+//    image: porfolioImage6,
+//  },
+//  {
+//    title: 'Project title 7',
+//    description: 'Give a short description of your project here.',
+//    url: 'https://reactresume.com',
+//    image: porfolioImage7,
+//  },
+//  {
+//    title: 'Project title 8',
+//    description: 'Give a short description of your project here.',
+//    url: 'https://reactresume.com',
+//    image: porfolioImage8,
+//  },
+//  {
+//    title: 'Project title 9',
+//    description: 'Give a short description of your project here.',
+//    url: 'https://reactresume.com',
+//    image: porfolioImage9,
+//  },
+  {
+    title: 'Twitter Sport Categorization Software',
+    description: 'Python program to read in sports-related tweet contents and provide a ranking of all possible sport categorization probabilities',
+    url: 'https://github.com/shoekwater',
     image: porfolioImage10,
   },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
-  },
+//  {
+//    title: 'Project title 11',
+//    description: 'Give a short description of your project here.',
+//    url: 'https://reactresume.com',
+//    image: porfolioImage11,
+//  },
 ];
 
 /**
@@ -247,8 +247,8 @@ export const education: TimelineItem[] = [
   {
     date: 'Sep. 2019 to Apr. 2023',
     location: 'School of Engineering',
-    itle: 'Bachelor\'s in  Computer Science',
-    content: <p>Overall GPA: 3.5/4.0
+    title: 'Bachelor\'s in  Computer Science',
+    content: <p>Overall GPA: 3.43/4.0
     <br></br><br></br>
     Throughout my studies at the University of Michigan, I was able to design, implement, and learn/apply proper coding principles in my software development. The Computer Science program at Michigan emphasized learning how to write code that is not only functional, but also high performance. They taught me how to collaborate with others on coding projects and integrate each person's part into one final product. 
     <br></br><br></br>
@@ -272,7 +272,7 @@ export const experience: TimelineItem[] = [
       <br></br>	
 	<b>-Developed and Integrated Classified Radar Model:</b> Led the full lifecycle development of a classified radar model,
 	collaborating with customers to meet project specifications and deadlines. Successfully integrated model into seamless
-	communication with mission computer softwares.
+	communication with mission computer software.
       </p>
     ),
   },
@@ -286,7 +286,7 @@ export const experience: TimelineItem[] = [
 	sorting processes, enabling engineers to test tools without using live stations, resulting in significant cost
 	savings during development phases.
 	<br></br>
-	<b>-Collaborated With Team:</b> Learned valuable communication skills and how to approach gaining comprehension of a large codebase.
+	<b>-Collaborated With Team:</b> Learned valuable communication skills working with other interns and the team to gain comprehension of a vast codebase.
       </p>
     ),
   },
