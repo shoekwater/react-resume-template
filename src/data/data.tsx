@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Sam Hoekwater',
+  description: "Young engineer with a desire to learn and grow.",
 };
 
 /**
@@ -73,7 +73,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm currently a Fort Worth based <strong className="text-stone-100">Software Engineer</strong>, currently working
+        I'm a Fort Worth based <strong className="text-stone-100">Software Engineer</strong>, currently working
         at <strong className="text-stone-100">Lockheed Martin</strong> supporting Test-Station Avionic Software.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -191,8 +191,8 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage3,
   },
   {
-    title: 'Text Based Euchre Game',
-    description: 'Play the classic card game, Euchre, in text form with others or against the AI players.',
+    title: 'Twitter Sport Categorization Software',
+    description: 'Python program to read in sports-related tweet contents and provide a ranking of all possible sport categorization probabilities',
     url: 'https://github.com/shoekwater',
     image: porfolioImage4,
   },
@@ -227,8 +227,8 @@ export const portfolioItems: PortfolioItem[] = [
 //    image: porfolioImage9,
 //  },
   {
-    title: 'Twitter Sport Categorization Software',
-    description: 'Python program to read in sports-related tweet contents and provide a ranking of all possible sport categorization probabilities',
+    title: 'Text Base Euchre Game',
+    description: 'Play the classic card game, Euchre, in text form with others or against the AI players.',
     url: 'https://github.com/shoekwater',
     image: porfolioImage10,
   },
@@ -248,8 +248,7 @@ export const education: TimelineItem[] = [
     date: 'Sep. 2019 to Apr. 2023',
     location: 'School of Engineering',
     title: 'Bachelor\'s in  Computer Science',
-    content: <p>Overall GPA: 3.43/4.0
-    <br></br><br></br>
+    content: <p>
     Throughout my studies at the University of Michigan, I was able to design, implement, and learn/apply proper coding principles in my software development. The Computer Science program at Michigan emphasized learning how to write code that is not only functional, but also high performance. They taught me how to collaborate with others on coding projects and integrate each person's part into one final product. 
     <br></br><br></br>
     The classes that helped me the most in becoming a capable engineer were <b>Data Structures and Algorithms</b>, <b>Computer Organization</b>, and <b>Web Systems</b>. In these classes, I learned how to make systems scalable to handle large amounts of data and traffic.</p>
