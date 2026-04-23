@@ -2,6 +2,24 @@
 
 // https://github.com/vercel/next.js/blob/master/packages/next/next-server/server/config.ts
 const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/game',
+        headers: [
+          {key: 'Cross-Origin-Opener-Policy', value: 'same-origin'},
+          {key: 'Cross-Origin-Embedder-Policy', value: 'require-corp'},
+        ],
+      },
+      {
+        source: '/game/:path*',
+        headers: [
+          {key: 'Cross-Origin-Opener-Policy', value: 'same-origin'},
+          {key: 'Cross-Origin-Embedder-Policy', value: 'require-corp'},
+        ],
+      },
+    ];
+  },
   webpack: config => {
     const oneOfRule = config.module.rules.find(rule => rule.oneOf);
 

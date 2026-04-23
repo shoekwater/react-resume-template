@@ -183,9 +183,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage2,
   },
   {
-    title: 'Western Themed Platform Shooter Game',
-    description: 'This project is still in progress. It is a game created with the free Godot Game Engine where you play as a cowboy who has to defend against the alligator men.',
-    url: 'https://github.com/shoekwater',
+    title: 'Western Platform Shooter',
+    description: 'Click here to play!',
+    url: '/game',
     image: porfolioImage3,
   },
   {
