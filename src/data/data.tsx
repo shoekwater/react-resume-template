@@ -73,8 +73,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Fort Worth based <strong className="text-stone-100">Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Lockheed Martin</strong> supporting Test-Station Avionic Software.
+        I am a <strong className="text-stone-100">Software Engineer</strong> based in Austin, TX and
+        working at <strong className="text-stone-100">Flex Radio Inc</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, I enjoy playing volleyball, snow skiing, running, and doing personal video game development.
@@ -102,21 +102,19 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I am a dedicated young engineer with a passion for developing innovative 
-	  solutions and bringing creative projects to life. In my current role, I hold Secret
-  	Security Clearance and work on avionics software models, creating and maintaining
-	systems that simulate fighter jet avionics to enhance pilot training and system testing.
-	Additionally, I’m working on a personal video game project—a western-themed platform
-	shooter—that combines my technical skills with my love for design and gameplay mechanics.
-	I’m committed to continuous learning and enjoy challenging myself with complex projects. 
-	Whether in team settings or solo projects, I approach every task with a strong work ethic
-	and enthusiasm for problem-solving.`,
+	  solutions and bringing creative projects to life. In my current role, I do development for
+	software-defined radios. This involves a wide variety of skills and deep knowledge of Digital
+	Signal Processing and management shared resources. I am actively learning a lot and growing 
+	my abilites as an Engineer. I’m committed to continuous learning and enjoy challenging myself
+	with complex projects. Whether in team settings or solo projects, I approach every task with a
+	strong work ethic and enthusiasm for problem-solving.`,
 
   aboutItems: [
-    {label: 'Location', text: 'Fort Worth, TX', Icon: MapIcon},
-    {label: 'Age', text: '23', Icon: CalendarIcon},
+    {label: 'Location', text: 'Austin, TX', Icon: MapIcon},
+    {label: 'Age', text: '24', Icon: CalendarIcon},
     {label: 'Interests', text: 'Game Development, Fitness, Nature', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Michigan, Ann Arbor', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Lockheed Martin Co.', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'Flex Radio', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -257,16 +255,16 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'Jul 2023 - Present',
+    date: 'Jul 2023 - Mar 2025',
     location: 'Lockheed Martin Co.',
     title: 'Software Engineer',
     content: (
       <p>
-      	<b>-Optimized Avionics Test Station Software:</b> Developed and maintained universal software using C and C++ to
-	streamline avionics simulations for the Integrated Fighter Group Program, reducing cross-program redundancy
+      	<b>-Optimized Avionics Test Station Software:</b> Developed and maintained universal software using c and c++ to
+	streamline avionics simulations for the integrated fighter group program, reducing cross-program redundancy
 	and improving codebase efficiency.
       <br></br>
-	<b>-Enhanced Pilot Simulation Interfaces:</b> Designed and implemented GUIs that accurately simulate pilot interactions
+	<b>-Enhanced Pilot Simulation Interfaces:</b> Designed and implemented guis that accurately simulate pilot interactions
 	with avionics subsystems, improving test accuracy and contributing to more realistic test scenarios.
       <br></br>	
 	<b>-Developed and Integrated Classified Radar Model:</b> Led the full lifecycle development of a classified radar model,
@@ -285,7 +283,7 @@ export const experience: TimelineItem[] = [
 	sorting processes, enabling engineers to test tools without using live stations, resulting in significant cost
 	savings during development phases.
 	<br></br>
-	<b>-Collaborated With Team:</b> Learned valuable communication skills working with other interns and the team to gain comprehension of a vast codebase.
+	<b>-Collaborated with Team:</b> Learned valuable communication skills working with other interns and the team to gain comprehension of a vast codebase.
       </p>
     ),
   },
@@ -339,8 +337,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'Fort Worth TX, USA',
-      href: 'https://www.google.ca/maps/place/Fort+Worth,+TX/@32.7992671,-97.9130364,10z/',
+      text: 'Austin TX, USA',
+      href: 'https://www.google.com/maps/place/Austin,+TX/@30.2957009,-98.0626223,10z/',
     },
   ],
 };
