@@ -111,8 +111,8 @@ export const aboutData: About = {
 
   aboutItems: [
     {label: 'Location', text: 'Austin, TX', Icon: MapIcon},
-    {label: 'Age', text: '24', Icon: CalendarIcon},
-    {label: 'Interests', text: 'Game Development, Fitness, Nature', Icon: SparklesIcon},
+    {label: 'Age', text: '25', Icon: CalendarIcon},
+    {label: 'Interests', text: 'Game Development, Health, The Outdoors', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Michigan, Ann Arbor', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Flex Radio', Icon: BuildingOffice2Icon},
   ],
