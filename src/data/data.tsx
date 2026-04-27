@@ -34,7 +34,7 @@ import {
   Hero,
   HomepageMeta,
   PortfolioItem,
-  SkillGroup,
+//  SkillGroup,
   Social,
   TestimonialSection,
   TimelineItem,
@@ -77,7 +77,7 @@ export const heroData: Hero = {
         working at <strong className="text-stone-100">Flex Radio Inc</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, I enjoy playing volleyball, snow skiing, running, and doing personal video game development.
+        In my free time time, I enjoy playing volleyball, snow skiing, running, and goofing off.
       </p>
     </>
   ),
@@ -112,7 +112,7 @@ export const aboutData: About = {
   aboutItems: [
     {label: 'Location', text: 'Austin, TX', Icon: MapIcon},
     {label: 'Age', text: '25', Icon: CalendarIcon},
-    {label: 'Interests', text: 'Game Development, Health, The Outdoors', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Health, The Outdoors, Electronics', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Michigan, Ann Arbor', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Flex Radio', Icon: BuildingOffice2Icon},
   ],
@@ -121,6 +121,9 @@ export const aboutData: About = {
 /**
  * Skills section
  */
+
+// Comment out because its corny
+/**
 export const skills: SkillGroup[] = [
   {
     name: 'Technical Skills',
@@ -165,6 +168,7 @@ export const skills: SkillGroup[] = [
     ],
   },
 ];
+*/
 
 /**
  * Portfolio section
