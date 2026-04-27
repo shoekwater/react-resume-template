@@ -175,6 +175,12 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'Western Platform Shooter',
+    description: 'Click here to play!',
+    url: '/game',
+    image: porfolioImage3,
+  },
+  {
     title: 'Instagram Web Application Clone',
     description: 'A web application where users can create an account, post images with captions, follow other users, and like their posts',
     url: 'https://github.com/shoekwater',
@@ -185,12 +191,6 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'A pipeline that splits a job into mulitple tasks, does a mapping on input data, and then combines the result. This enables concurrent processing for faster computation.',
     url: 'https://github.com/shoekwater',
     image: porfolioImage2,
-  },
-  {
-    title: 'Western Platform Shooter',
-    description: 'Click here to play!',
-    url: '/game',
-    image: porfolioImage3,
   },
   {
     title: 'Twitter Sport Categorization Software',
